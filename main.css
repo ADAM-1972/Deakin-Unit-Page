@@ -18,6 +18,9 @@ p {
 table {
   border-collapse: collapse;
   width: 100%;
+div {
+  background-color: darkcyan;
+  text-align:right;
 }
 
 th, td {
