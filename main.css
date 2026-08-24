@@ -15,9 +15,20 @@ p {
   font-size: 14px;
   font-family: Arial
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
 div {
   background-color: darkcyan;
   text-align:right;
 }
 
+th, td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
 
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
